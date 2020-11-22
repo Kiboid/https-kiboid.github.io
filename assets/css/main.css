@@ -2709,6 +2709,7 @@ input, select, textarea {
 					}
 
 					ul.actions:not(.fixed) li input[type="submit"],
+					ul.actions:not(.fixed) li a[type="download"],
 					ul.actions:not(.fixed) li input[type="reset"],
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
@@ -2717,6 +2718,7 @@ input, select, textarea {
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
+						ul.actions:not(.fixed) li a[type="download"],
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
@@ -2941,6 +2943,7 @@ input, select, textarea {
 /* Button */
 
 	input[type="submit"],
+	a[type="download"],
 	input[type="reset"],
 	input[type="button"],
 	button,
@@ -2974,6 +2977,7 @@ input, select, textarea {
 	}
 
 		input[type="submit"]:hover,
+		a[type="download"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		button:hover,
@@ -2982,6 +2986,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"]:active,
+		a[type="download"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		button:active,
@@ -2990,6 +2995,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"].icon:before,
+		a[type="download"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
 		button.icon:before,
@@ -2999,6 +3005,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"].primary,
+		a[type="download"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		button.primary,
@@ -3008,6 +3015,7 @@ input, select, textarea {
 		}
 
 			input[type="submit"].primary:hover,
+			a[type="download"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			button.primary:hover,
@@ -3016,6 +3024,7 @@ input, select, textarea {
 			}
 
 			input[type="submit"].primary:active,
+			a[type="download"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			button.primary:active,
@@ -3024,6 +3033,7 @@ input, select, textarea {
 			}
 
 			input[type="submit"].primary.icon:before,
+			a[type="download"].primary.icon:before,
 			input[type="reset"].primary.icon:before,
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
@@ -3032,6 +3042,7 @@ input, select, textarea {
 			}
 
 		input[type="submit"].fit,
+		a[type="download"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
 		button.fit,
@@ -3040,6 +3051,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"].small,
+		a[type="download"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
 		button.small,
@@ -3048,6 +3060,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"].large,
+		a[type="download"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
 		button.large,
@@ -3056,6 +3069,7 @@ input, select, textarea {
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
+		a[type="download"].disabled, a[type="download"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
@@ -3070,6 +3084,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			input[type="submit"],
+			a[type="download"],
 			input[type="reset"],
 			input[type="button"],
 			button,
