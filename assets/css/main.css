@@ -2,91 +2,91 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Hairline'), local('Helvetica-Now-Display-Hairline'),
-        url('HelveticaNowDisplay-Hairline.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Hairline.woff') format('woff'),
-        url('HelveticaNowDisplay-Hairline.ttf') format('truetype');
+    src: local('Helvetica Now Display Hairline'), local('../webfonts/Helvetica-Now-Display-Hairline'),
+        url(../webfonts/'HelveticaNowDisplay-Hairline.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Hairline.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Hairline.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Thin'), local('Helvetica-Now-Display-Thin'),
-        url('HelveticaNowDisplay-Thin.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Thin.woff') format('woff'),
-        url('HelveticaNowDisplay-Thin.ttf') format('truetype');
+    src: local('Helvetica Now Display Thin'), local('../webfonts/Helvetica-Now-Display-Thin'),
+        url('../webfonts/HelveticaNowDisplay-Thin.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Thin.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Thin.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Ext Lt'), local('Helvetica-Now-Display-Ext-Lt'),
-        url('HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
-        url('HelveticaNowDisplay-ExtLt.woff') format('woff'),
-        url('HelveticaNowDisplay-ExtLt.ttf') format('truetype');
+    src: local('../webfonts/Helvetica Now Display Ext Lt'), local('../webfonts/Helvetica-Now-Display-Ext-Lt'),
+        url('../webfonts/HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-ExtLt.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-ExtLt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Light'), local('Helvetica-Now-Display-Light'),
-        url('HelveticaNowDisplay-Light.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Light.woff') format('woff'),
-        url('HelveticaNowDisplay-Light.ttf') format('truetype');
+    src: local('Helvetica Now Display Light'), local('../webfonts/Helvetica-Now-Display-Light'),
+        url('../webfonts/HelveticaNowDisplay-Light.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Light.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regular'),
-        url('HelveticaNowDisplay-Regular.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Regular.woff') format('woff'),
-        url('HelveticaNowDisplay-Regular.ttf') format('truetype');
+    src: local('Helvetica Now Display Regular'), local('../webfonts/Helvetica-Now-Display-Regular'),
+        url('../webfonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Regular.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Medium'), local('Helvetica-Now-Display-Medium'),
-        url('HelveticaNowDisplay-Medium.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Medium.woff') format('woff'),
-        url('HelveticaNowDisplay-Medium.ttf') format('truetype');
+    src: local('../webfonts/Helvetica Now Display Medium'), local('../webfonts/Helvetica-Now-Display-Medium'),
+        url('../webfonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Medium.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
   @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Bold'), local('Helvetica-Now-Display-Bold'),
-        url('HelveticaNowDisplay-Bold.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Bold.woff') format('woff'),
-        url('HelveticaNowDisplay-Bold.ttf') format('truetype');
+    src: local('Helvetica Now Display Bold'), local('../webfonts/Helvetica-Now-Display-Bold'),
+        url('../webfonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Bold.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Extra Bold'), local('Helvetica-Now-Display-Extra-Bold'),
-        url('HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
-        url('HelveticaNowDisplay-ExtraBold.woff') format('woff'),
-        url('HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
+    src: local('../webfonts/Helvetica Now Display Extra Bold'), local('../webfonts/../webfonts/Helvetica-Now-Display-Extra-Bold'),
+        url('../webfonts/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-ExtraBold.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Black'), local('Helvetica-Now-Display-Black'),
-        url('HelveticaNowDisplay-Black.woff2') format('woff2'),
-        url('HelveticaNowDisplay-Black.woff') format('woff'),
-        url('HelveticaNowDisplay-Black.ttf') format('truetype');
+    src: local('../webfonts/Helvetica Now Display Black'), local('../webfonts/Helvetica-Now-Display-Black'),
+        url('../webfonts/HelveticaNowDisplay-Black.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-Black.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
   }
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: local('Helvetica Now Display Ext Blk'), local('Helvetica-Now-Display-Ext-Blk'),
-        url('HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
-        url('HelveticaNowDisplay-ExtBlk.woff') format('woff'),
-        url('HelveticaNowDisplay-ExtBlk.ttf') format('truetype');
+    src: local('../webfonts/Helvetica Now Display Ext Blk'), local('../webfonts/Helvetica-Now-Display-Ext-Blk'),
+        url('../webfonts/HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
+        url('../webfonts/HelveticaNowDisplay-ExtBlk.woff') format('woff'),
+        url('../webfonts/HelveticaNowDisplay-ExtBlk.ttf') format('truetype');
     font-weight: 1000;
     font-style: normal;
   }
