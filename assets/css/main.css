@@ -3505,15 +3505,11 @@ input, select, textarea {
 		}
 
 			#banner .logo .icon {
-				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
 				display: inline-block;
-				font-size: 2em;
-				height: 2.25em;
-				line-height: 2.25em;
-				text-align: center;
-				width: 2.25em;
+				height: 135px;
+				width: auto;
+				margin-left: -10px;
 			}
 
 		#banner h2 {
@@ -3648,6 +3644,11 @@ input, select, textarea {
 			-ms-filter: blur(2px);
 			filter: blur(2px);
 		}
+
+.header-img{
+	margin-top: 1.25%;
+	height:30px;
+}
 
 /* Wrapper */
 
