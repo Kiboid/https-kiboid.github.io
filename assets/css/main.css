@@ -3124,10 +3124,11 @@ input, select, textarea {
 				border-radius: 5px 5px 0 0;
 				display: block;
 				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
+				max-width: fit-content;
+    			height: auto;
+
 			}
 
 				.features article .image img {
@@ -3728,6 +3729,10 @@ input, select, textarea {
 
 	}
 
+	.no-gradient:before, .no-gradient:after {
+		height: 0 !important;
+	}
+
 	.wrapper {
 		background-color: #1A1A1A;
 		margin: 6.5em 0;
@@ -3904,7 +3909,7 @@ input, select, textarea {
 			.wrapper.spotlight .image {
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 40em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
